@@ -7,12 +7,12 @@ import javax.swing.*;
 
 public class Game extends JComponent{
 	
-	private static JButton[][]  btn;
-	private GridLayout 		 	layout;
-	private int				 	boxes;
-	private int 			 	clicked;
+	private static JButton[][]  	btn;
+	private GridLayout 		layout;
+	private int			boxes;
+	private int 			clicked;
 	private int 		        player;
-	private boolean 			gameOver;
+	private boolean 		gameOver;
 	public JLabel overLabel;
 	
 	public Game(){
